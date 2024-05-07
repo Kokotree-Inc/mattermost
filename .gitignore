@@ -156,3 +156,6 @@ docker-compose.override.yaml
 ## Notice Folders
 .notice/
 .notice-work/
+
+## Custom
+server/tmpprepackaged/*
