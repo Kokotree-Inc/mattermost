@@ -4,7 +4,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Logo from 'components/common/svg_images_components/logo_dark_blue_svg';
+// import Logo from 'components/common/svg_images_components/logo_dark_blue_svg';
+import Logo from 'components/common/svg_images_components/logo_kokotree_svg';
 
 const ProductBrandingTeamEditionContainer = styled.div`
     display: flex;
@@ -21,31 +22,43 @@ const StyledLogo = styled(Logo)`
     }
 `;
 
-const Badge = styled.div`
-    display: flex;
-    align-self: center;
-    padding: 2px 6px;
-    position: relative;
-    top: 1px;
-    border-radius: var(--radius-s);
-    margin-left: 12px;
-    background: rgba(var(--sidebar-text-rgb), 0.08);
-    color: rgba(var(--sidebar-text-rgb), 0.75);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 0.025em;
-    line-height: 16px;
-`;
+// const Badge = styled.div`
+//     display: flex;
+//     align-self: center;
+//     padding: 2px 6px;
+//     position: relative;
+//     top: 1px;
+//     border-radius: var(--radius-s);
+//     margin-left: 12px;
+//     background: rgba(var(--sidebar-text-rgb), 0.08);
+//     color: rgba(var(--sidebar-text-rgb), 0.75);
+//     font-family: 'Open Sans', sans-serif;
+//     font-size: 10px;
+//     font-weight: 600;
+//     letter-spacing: 0.025em;
+//     line-height: 16px;
+// `;
 
+// const ProductBrandingTeamEdition = (): JSX.Element => {
+//     return (
+//         <ProductBrandingTeamEditionContainer tabIndex={0}>
+//             <StyledLogo
+//                 width={116}
+//                 height={20}
+//             />
+//             <Badge>{'FREE EDITION'}</Badge>
+//         </ProductBrandingTeamEditionContainer>
+//     );
+// };
+
+// Custom Kokotree code for ProductBrandingTeamEdition
 const ProductBrandingTeamEdition = (): JSX.Element => {
     return (
         <ProductBrandingTeamEditionContainer tabIndex={0}>
             <StyledLogo
-                width={116}
-                height={20}
+                width={150}
+                height={22}
             />
-            <Badge>{'FREE EDITION'}</Badge>
         </ProductBrandingTeamEditionContainer>
     );
 };
